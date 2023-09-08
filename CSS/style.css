@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+#main-screen{
+    background: url("../Images/bg\ image\ 1.jpg");
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+.navbar-dark{
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Open Sans';
+    letter-spacing: 0.5em;
+}
+.nav-item{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Open Sans';
+}
+.nav-link {
+    color: white;
+}
+
+.text-center{
+    color: white;
+    margin-top: 125px;
+}
+
+.btn-warning{
+    padding: 10px 50px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.thestory{
+    padding-top: 150px;
+}
+
+.thestory > p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+#about{
+    background: url(../Images/bg\ image\ 2.jpg);
+    padding: 150px 0px;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+.col-5 > p{
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.col-5 > h2{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.col-7{
+    padding-top: 50px;
+}
+
+
+#features{
+    background: url(../Images/bgabout.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+.featurestxt{
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.featurestxt > p{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.featurestxt > h1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.bagianfeatures > li {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFB548;
+}
+
+.bagianfeatures > p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+}
+#requirements{
+    background: url(../Images/bgreq.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+
+
+.headreq > h3{
+    font-family: Arial;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+}
+
+.headreq{
+    padding-top: 20px;
+}
+
+.isirequirements{
+    padding-left: 60px;
+    padding-top: 50px;
+}
+
+.isirequirements > h1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.bagianreq > p{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #FFB548;
+}
+
+.detail > p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+}
+
+.bagianreq{
+    border: outset;
+}
+#topscores{
+    background: url(../Images/top-score-bg.png);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+.texttopscores{
+    padding-top: 200px;
+    padding-left: 50px;
+}
+
+.texttopscores > h1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.texttopscores > p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+}
+   
+.quote1{
+   height: 100px;
+   width: 400px;
+   padding-top: 50px;
+}
+
+.quote1 > img{
+    padding-right: 0px;
+}
+
+.quote2{
+    height: 100px;
+    width: 400px;
+    padding-top: 120px;
+}
+
+.quote2 > img {
+    padding-left: 0px;
+}
+
+.quote3{
+    height: 200px;
+    width: 400px;
+    padding-top: 200px;
+}
+
+.quote3 > img {
+    padding-right: 0px;
+}
+
+#newsletter{
+    background: url(../Images/newsletter.png);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+.letters{
+    padding-top: 150px;
+}
+
+.letters > h3{
+    text-align: left;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.letters > h1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 75px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.letters > p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+
+}
+
+.skull > img, svg{
+    width: 270px;
+    padding-top: 150px;
+}
+
+.form-floating{
+    position: relative;
+    width: 366px;
+}
+
+.form-floating > label{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border-radius: 4px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: rgba(255, 255, 255, 0.08);
+    background-clip: padding-box;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 5px;
+}
+
+input#floatingInputGrid.form-control {
+    position: fixed;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFB548;
+}
+
+.btn-primary{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #F3AF34;
+    --bs-btn-border-color: #F3AF34;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #F3AF34;
+    --bs-btn-hover-border-color: #F3AF34;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #F3AF34;
+    --bs-btn-active-border-color: ##F3AF34;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #F3AF34;
+    --bs-btn-disabled-border-color: #F3AF34;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    height: 58px;
+    width: 240px;
+}
+
+.btn {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #080A0B;
+}
+
+.navbaratas{
+    padding-top: 0px;
+    letter-spacing: 0.2em;
+}
+
+.navbarbawah{
+    padding-top: 0px;
+    border-top: outset;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.copyright{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
